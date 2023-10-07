@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./build/css/style.css">
+    <title>Turma de Educação Física</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Turma de Educação Física</h1>
+        <div id="statistics">
+            <p>Total de Alunos: <span id="totalAlunos">0</span></p>
+            <p>Média de Idades: <span id="mediaIdade">0</span></p>
+            <p>Média de Alturas: <span id="mediaAltura">0</span></p>
+            <p>Média de Pesos: <span id="mediaPeso">0</span></p>
+        </div>
+        <div id="studentForm">
+            <input type="text" id="nomeAluno" placeholder="Nome Completo">
+            <input type="number" id="idadeAluno" placeholder="Idade">
+            <input type="number" id="alturaAluno" placeholder="Altura (cm)">
+            <input type="number" id="pesoAluno" placeholder="Peso (kg)">
+            <button id="addAluno">Adicionar Aluno</button>
+        </div>
+        <ul id="listaAlunos">
+        </ul>
+    </div>
+    <script src="./build/js/main.js"></script>
+</body>
+</html>
